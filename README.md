@@ -3,9 +3,9 @@
 
 ### Funzionalità
 - [x] Notizie
-- [] Circolari
-- [] Orario
-- [] Sondaggi
+- [ ] Circolari
+- [ ] Orario
+- [ ] Sondaggi
 
 ### Esegui localmente
 1. Clona il repository
