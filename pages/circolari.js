@@ -35,7 +35,7 @@ export default function Circolari({ scraped }) {
   </>);
 };
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const data = await fetch(process.env.NEXT_URL + "/api/scrape/circolari").then(res => res.json());
 
   return {

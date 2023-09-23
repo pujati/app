@@ -74,7 +74,7 @@ export default function Home({ scraped }) {
   </>);
 };
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const data = await fetch(process.env.NEXT_URL + "/api/scrape/home").then(res => res.json());
 
   return {
