@@ -12,10 +12,10 @@
 2. Installa le dipendenze con `npm install`
 3. Crea un file `.env` con il seguente contenuto:
 ```
-NEXT_URL=http://localhost:3000
+NEXT_URL=http://localhost:4330
 ```
 4. Esegui il server con `npm start`
-5. Apri il browser all'indirizzo `http://localhost:3000`
+5. Apri il browser all'indirizzo `http://localhost:4330`
 
 ### Contribuisci
 1. Crea un fork del repository
