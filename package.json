@@ -1,6 +1,7 @@
 {
-  "name": "app-pujati",
+  "name": "pujatiapp",
   "version": "0.1.0",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,11 +10,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "axios": "^1.5.0",
+    "cheerio": "^1.0.0-rc.12",
+    "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "next": "latest"
+    "rerousel": "^0.1.9"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.10",
     "autoprefixer": "latest",
     "postcss": "latest",
     "tailwindcss": "latest"
